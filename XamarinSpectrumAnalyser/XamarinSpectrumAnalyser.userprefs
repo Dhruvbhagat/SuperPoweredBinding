@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{16193A72-8659-4208-BD57-ED0F9A4DC988}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../SuperpoweredSDKBinding/ApiDefinition.cs">
+    <Files>
+      <File FileName="Info.plist" />
+      <File FileName="ViewController.cs" Line="87" Column="44" />
+      <File FileName="../SuperpoweredSDKXamarinWrapper/SuperpoweredAdvancedAudioPlayer.cs" Line="45" Column="71" />
+      <File FileName="../SuperpoweredSDKXamarinWrapper/SuperpoweredAdvancedAudioPlayerWrapper.cs" Line="25" Column="101" />
+      <File FileName="../SuperpoweredSDKXamarinWrapper/Constants.cs" Line="68" Column="21" />
+      <File FileName="../SuperpoweredSDKBinding/StructsAndEnums.cs" Line="4" Column="2" />
+      <File FileName="../SuperpoweredSDKBinding/ApiDefinition.cs" Line="87" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinSpectrumAnalyser" expanded="True">
+            <Node name="SuperpoweredSDKBinding" expanded="True">
+              <Node name="ApiDefinition.cs" selected="True" />
+            </Node>
+            <Node name="SuperpoweredSDKXamarinWrapper" expanded="True" />
+            <Node name="XamarinSpectrumAnalyser" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/mac/Desktop/dhruv/EQQO/xamarin-spectrum-analyser/XamarinSpectrumAnalyser/ViewController.cs" relfile="ViewController.cs" line="42" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.XamarinSpectrumAnalyser PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.30213738d7fe5152f5950d54f0919d4b2dae7793" />
+</Properties>

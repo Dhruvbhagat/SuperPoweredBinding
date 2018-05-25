@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0429379220B6826A00334A61 /* SuperpoweredAdvancedAudioPlayerXCodeWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0429379120B6826A00334A61 /* SuperpoweredAdvancedAudioPlayerXCodeWrapper.cpp */; };
+		940C9ABB1B9BB74900328168 /* libSuperpoweredXCodeWrapper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 940C9AAF1B9BB74900328168 /* libSuperpoweredXCodeWrapper.a */; };
+		940C9ACC1B9BB8EC00328168 /* SuperpoweredBandpassFilterbankXCodeWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 940C9ACA1B9BB8EC00328168 /* SuperpoweredBandpassFilterbankXCodeWrapper.cpp */; };
+		9460EAC81B9BF06C0075EF8E /* SuperpoweredSimpleXCodeWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9460EAC61B9BF06C0075EF8E /* SuperpoweredSimpleXCodeWrapper.cpp */; };
+		9460EACB1B9BF3300075EF8E /* SuperpoweredWrapperUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9460EAC91B9BF3300075EF8E /* SuperpoweredWrapperUtilities.cpp */; };
+		94B593C11BAADD230069E3FD /* SuperpoweredFrequencies.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94B593BE1BAADD230069E3FD /* SuperpoweredFrequencies.mm */; };
+		94B593C21BAADD230069E3FD /* SuperpoweredIOSAudioOutput.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94B593C01BAADD230069E3FD /* SuperpoweredIOSAudioOutput.mm */; };
+		A6E275E71F926759005C03F6 /* SuperpoweredNBandEQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E275D81F926758005C03F6 /* SuperpoweredNBandEQ.cpp */; };
+		A6E275E81F926759005C03F6 /* SuperpoweredIOSAudioIO.mm in Sources */ = {isa = PBXBuildFile; fileRef = A6E275D91F926758005C03F6 /* SuperpoweredIOSAudioIO.mm */; };
+		A6E275EE1F92F79C005C03F6 /* SuperpoweredFilterXCodeWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E275ED1F92F79C005C03F6 /* SuperpoweredFilterXCodeWrapper.cpp */; };
+		A6E275F41F931FB2005C03F6 /* SuperpoweredRecorderXCodeWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E275F31F931FB2005C03F6 /* SuperpoweredRecorderXCodeWrapper.cpp */; };
+		A6E275F81F94185E005C03F6 /* SuperpoweredDecoderXCodeWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6E275F71F94185E005C03F6 /* SuperpoweredDecoderXCodeWrapper.cpp */; };
+		C3AE1EF020AB0F6A00379CAF /* Superpowered3BandEQXCodeWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3AE1EEE20AB0F6A00379CAF /* Superpowered3BandEQXCodeWrapper.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		940C9ABC1B9BB74900328168 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940C9AA71B9BB74900328168 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940C9AAE1B9BB74900328168;
+			remoteInfo = SuperpoweredXCodeWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		940C9AAD1B9BB74900328168 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0429379020B6824D00334A61 /* SuperpoweredAdvancedAudioPlayerXCodeWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperpoweredAdvancedAudioPlayerXCodeWrapper.h; sourceTree = "<group>"; };
+		0429379120B6826A00334A61 /* SuperpoweredAdvancedAudioPlayerXCodeWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SuperpoweredAdvancedAudioPlayerXCodeWrapper.cpp; sourceTree = "<group>"; };
+		940C9AAF1B9BB74900328168 /* libSuperpoweredXCodeWrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSuperpoweredXCodeWrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C9ABA1B9BB74900328168 /* SuperpoweredXCodeWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperpoweredXCodeWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		940C9AC01B9BB74900328168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		940C9ACA1B9BB8EC00328168 /* SuperpoweredBandpassFilterbankXCodeWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuperpoweredBandpassFilterbankXCodeWrapper.cpp; sourceTree = "<group>"; };
+		940C9ACB1B9BB8EC00328168 /* SuperpoweredBandpassFilterbankXCodeWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredBandpassFilterbankXCodeWrapper.h; sourceTree = "<group>"; };
+		940C9ACE1B9BB91400328168 /* SuperpoweredBandpassFilterbank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredBandpassFilterbank.h; sourceTree = "<group>"; };
+		9460EAC51B9BF0350075EF8E /* SuperpoweredSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredSimple.h; sourceTree = "<group>"; };
+		9460EAC61B9BF06C0075EF8E /* SuperpoweredSimpleXCodeWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuperpoweredSimpleXCodeWrapper.cpp; sourceTree = "<group>"; };
+		9460EAC71B9BF06C0075EF8E /* SuperpoweredSimpleXCodeWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredSimpleXCodeWrapper.h; sourceTree = "<group>"; };
+		9460EAC91B9BF3300075EF8E /* SuperpoweredWrapperUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuperpoweredWrapperUtilities.cpp; sourceTree = "<group>"; };
+		9460EACA1B9BF3300075EF8E /* SuperpoweredWrapperUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredWrapperUtilities.h; sourceTree = "<group>"; };
+		94B593BD1BAADD230069E3FD /* SuperpoweredFrequencies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredFrequencies.h; sourceTree = "<group>"; };
+		94B593BE1BAADD230069E3FD /* SuperpoweredFrequencies.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SuperpoweredFrequencies.mm; sourceTree = "<group>"; };
+		94B593BF1BAADD230069E3FD /* SuperpoweredIOSAudioOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredIOSAudioOutput.h; sourceTree = "<group>"; };
+		94B593C01BAADD230069E3FD /* SuperpoweredIOSAudioOutput.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SuperpoweredIOSAudioOutput.mm; sourceTree = "<group>"; };
+		A6E275C61F926756005C03F6 /* SuperpoweredNBandEQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredNBandEQ.h; sourceTree = "<group>"; };
+		A6E275C71F926756005C03F6 /* SuperpoweredFlanger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredFlanger.h; sourceTree = "<group>"; };
+		A6E275C81F926756005C03F6 /* SuperpoweredTimeStretching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredTimeStretching.h; sourceTree = "<group>"; };
+		A6E275CA1F926756005C03F6 /* SuperpoweredAdvancedAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredAdvancedAudioPlayer.h; sourceTree = "<group>"; };
+		A6E275CB1F926756005C03F6 /* SuperpoweredClipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredClipper.h; sourceTree = "<group>"; };
+		A6E275CC1F926756005C03F6 /* SuperpoweredSpatializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredSpatializer.h; sourceTree = "<group>"; };
+		A6E275CE1F926757005C03F6 /* Superpowered3BandEQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Superpowered3BandEQ.h; sourceTree = "<group>"; };
+		A6E275CF1F926757005C03F6 /* SuperpoweredCPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredCPU.h; sourceTree = "<group>"; };
+		A6E275D01F926757005C03F6 /* SuperpoweredLimiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredLimiter.h; sourceTree = "<group>"; };
+		A6E275D11F926757005C03F6 /* SuperpoweredCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredCompressor.h; sourceTree = "<group>"; };
+		A6E275D21F926757005C03F6 /* SuperpoweredFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredFX.h; sourceTree = "<group>"; };
+		A6E275D31F926757005C03F6 /* SuperpoweredFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredFilter.h; sourceTree = "<group>"; };
+		A6E275D41F926757005C03F6 /* SuperpoweredFrequencyDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredFrequencyDomain.h; sourceTree = "<group>"; };
+		A6E275D51F926757005C03F6 /* SuperpoweredResampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredResampler.h; sourceTree = "<group>"; };
+		A6E275D61F926757005C03F6 /* SuperpoweredMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredMixer.h; sourceTree = "<group>"; };
+		A6E275D71F926757005C03F6 /* SuperpoweredRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredRecorder.h; sourceTree = "<group>"; };
+		A6E275D81F926758005C03F6 /* SuperpoweredNBandEQ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuperpoweredNBandEQ.cpp; sourceTree = "<group>"; };
+		A6E275D91F926758005C03F6 /* SuperpoweredIOSAudioIO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SuperpoweredIOSAudioIO.mm; sourceTree = "<group>"; };
+		A6E275DB1F926758005C03F6 /* SuperpoweredGate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredGate.h; sourceTree = "<group>"; };
+		A6E275DC1F926758005C03F6 /* SuperpoweredRoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredRoll.h; sourceTree = "<group>"; };
+		A6E275DD1F926758005C03F6 /* SuperpoweredDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredDecoder.h; sourceTree = "<group>"; };
+		A6E275DE1F926758005C03F6 /* SuperpoweredEcho.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredEcho.h; sourceTree = "<group>"; };
+		A6E275DF1F926758005C03F6 /* SuperpoweredIOSAudioIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredIOSAudioIO.h; sourceTree = "<group>"; };
+		A6E275E11F926759005C03F6 /* SuperpoweredAudioBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredAudioBuffers.h; sourceTree = "<group>"; };
+		A6E275E21F926759005C03F6 /* SuperpoweredAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredAnalyzer.h; sourceTree = "<group>"; };
+		A6E275E31F926759005C03F6 /* SuperpoweredFFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredFFT.h; sourceTree = "<group>"; };
+		A6E275E41F926759005C03F6 /* SuperpoweredReverb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredReverb.h; sourceTree = "<group>"; };
+		A6E275E51F926759005C03F6 /* SuperpoweredWhoosh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperpoweredWhoosh.h; sourceTree = "<group>"; };
+		A6E275EA1F92F57F005C03F6 /* SuperpoweredFilterXCodeWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperpoweredFilterXCodeWrapper.h; sourceTree = "<group>"; };
+		A6E275ED1F92F79C005C03F6 /* SuperpoweredFilterXCodeWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SuperpoweredFilterXCodeWrapper.cpp; sourceTree = "<group>"; };
+		A6E275F21F931FA1005C03F6 /* SuperpoweredRecorderXCodeWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperpoweredRecorderXCodeWrapper.h; sourceTree = "<group>"; };
+		A6E275F31F931FB2005C03F6 /* SuperpoweredRecorderXCodeWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SuperpoweredRecorderXCodeWrapper.cpp; sourceTree = "<group>"; };
+		A6E275F61F941848005C03F6 /* SuperpoweredDecoderXCodeWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperpoweredDecoderXCodeWrapper.h; sourceTree = "<group>"; };
+		A6E275F71F94185E005C03F6 /* SuperpoweredDecoderXCodeWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SuperpoweredDecoderXCodeWrapper.cpp; sourceTree = "<group>"; };
+		C3AE1EED20AB0D5E00379CAF /* Superpowered3BandEQXCodeWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Superpowered3BandEQXCodeWrapper.h; sourceTree = "<group>"; };
+		C3AE1EEE20AB0F6A00379CAF /* Superpowered3BandEQXCodeWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Superpowered3BandEQXCodeWrapper.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		940C9AAC1B9BB74900328168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940C9AB71B9BB74900328168 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940C9ABB1B9BB74900328168 /* libSuperpoweredXCodeWrapper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		940C9AA61B9BB74900328168 = {
+			isa = PBXGroup;
+			children = (
+				940C9ACD1B9BB8F900328168 /* SuperpoweredSDK */,
+				940C9AB11B9BB74900328168 /* SuperpoweredXCodeWrapper */,
+				940C9ABE1B9BB74900328168 /* SuperpoweredXCodeWrapperTests */,
+				940C9AB01B9BB74900328168 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		940C9AB01B9BB74900328168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940C9AAF1B9BB74900328168 /* libSuperpoweredXCodeWrapper.a */,
+				940C9ABA1B9BB74900328168 /* SuperpoweredXCodeWrapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940C9AB11B9BB74900328168 /* SuperpoweredXCodeWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				940C9ACA1B9BB8EC00328168 /* SuperpoweredBandpassFilterbankXCodeWrapper.cpp */,
+				940C9ACB1B9BB8EC00328168 /* SuperpoweredBandpassFilterbankXCodeWrapper.h */,
+				9460EAC61B9BF06C0075EF8E /* SuperpoweredSimpleXCodeWrapper.cpp */,
+				9460EAC71B9BF06C0075EF8E /* SuperpoweredSimpleXCodeWrapper.h */,
+				9460EAC91B9BF3300075EF8E /* SuperpoweredWrapperUtilities.cpp */,
+				9460EACA1B9BF3300075EF8E /* SuperpoweredWrapperUtilities.h */,
+				A6E275EA1F92F57F005C03F6 /* SuperpoweredFilterXCodeWrapper.h */,
+				A6E275ED1F92F79C005C03F6 /* SuperpoweredFilterXCodeWrapper.cpp */,
+				A6E275F21F931FA1005C03F6 /* SuperpoweredRecorderXCodeWrapper.h */,
+				A6E275F31F931FB2005C03F6 /* SuperpoweredRecorderXCodeWrapper.cpp */,
+				A6E275F61F941848005C03F6 /* SuperpoweredDecoderXCodeWrapper.h */,
+				A6E275F71F94185E005C03F6 /* SuperpoweredDecoderXCodeWrapper.cpp */,
+				C3AE1EED20AB0D5E00379CAF /* Superpowered3BandEQXCodeWrapper.h */,
+				C3AE1EEE20AB0F6A00379CAF /* Superpowered3BandEQXCodeWrapper.cpp */,
+				0429379020B6824D00334A61 /* SuperpoweredAdvancedAudioPlayerXCodeWrapper.h */,
+				0429379120B6826A00334A61 /* SuperpoweredAdvancedAudioPlayerXCodeWrapper.cpp */,
+			);
+			path = SuperpoweredXCodeWrapper;
+			sourceTree = "<group>";
+		};
+		940C9ABE1B9BB74900328168 /* SuperpoweredXCodeWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				940C9ABF1B9BB74900328168 /* Supporting Files */,
+			);
+			path = SuperpoweredXCodeWrapperTests;
+			sourceTree = "<group>";
+		};
+		940C9ABF1B9BB74900328168 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				940C9AC01B9BB74900328168 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		940C9ACD1B9BB8F900328168 /* SuperpoweredSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A6E275CE1F926757005C03F6 /* Superpowered3BandEQ.h */,
+				A6E275CA1F926756005C03F6 /* SuperpoweredAdvancedAudioPlayer.h */,
+				A6E275E21F926759005C03F6 /* SuperpoweredAnalyzer.h */,
+				A6E275E11F926759005C03F6 /* SuperpoweredAudioBuffers.h */,
+				A6E275CB1F926756005C03F6 /* SuperpoweredClipper.h */,
+				A6E275D11F926757005C03F6 /* SuperpoweredCompressor.h */,
+				A6E275CF1F926757005C03F6 /* SuperpoweredCPU.h */,
+				A6E275DD1F926758005C03F6 /* SuperpoweredDecoder.h */,
+				A6E275DE1F926758005C03F6 /* SuperpoweredEcho.h */,
+				A6E275E31F926759005C03F6 /* SuperpoweredFFT.h */,
+				A6E275D31F926757005C03F6 /* SuperpoweredFilter.h */,
+				A6E275C71F926756005C03F6 /* SuperpoweredFlanger.h */,
+				A6E275D41F926757005C03F6 /* SuperpoweredFrequencyDomain.h */,
+				A6E275D21F926757005C03F6 /* SuperpoweredFX.h */,
+				A6E275DB1F926758005C03F6 /* SuperpoweredGate.h */,
+				A6E275DF1F926758005C03F6 /* SuperpoweredIOSAudioIO.h */,
+				A6E275D91F926758005C03F6 /* SuperpoweredIOSAudioIO.mm */,
+				A6E275D01F926757005C03F6 /* SuperpoweredLimiter.h */,
+				A6E275D61F926757005C03F6 /* SuperpoweredMixer.h */,
+				A6E275D81F926758005C03F6 /* SuperpoweredNBandEQ.cpp */,
+				A6E275C61F926756005C03F6 /* SuperpoweredNBandEQ.h */,
+				A6E275D71F926757005C03F6 /* SuperpoweredRecorder.h */,
+				A6E275D51F926757005C03F6 /* SuperpoweredResampler.h */,
+				A6E275E41F926759005C03F6 /* SuperpoweredReverb.h */,
+				A6E275DC1F926758005C03F6 /* SuperpoweredRoll.h */,
+				A6E275CC1F926756005C03F6 /* SuperpoweredSpatializer.h */,
+				A6E275C81F926756005C03F6 /* SuperpoweredTimeStretching.h */,
+				A6E275E51F926759005C03F6 /* SuperpoweredWhoosh.h */,
+				94B593BD1BAADD230069E3FD /* SuperpoweredFrequencies.h */,
+				94B593BE1BAADD230069E3FD /* SuperpoweredFrequencies.mm */,
+				94B593BF1BAADD230069E3FD /* SuperpoweredIOSAudioOutput.h */,
+				94B593C01BAADD230069E3FD /* SuperpoweredIOSAudioOutput.mm */,
+				9460EAC51B9BF0350075EF8E /* SuperpoweredSimple.h */,
+				940C9ACE1B9BB91400328168 /* SuperpoweredBandpassFilterbank.h */,
+			);
+			name = SuperpoweredSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		940C9AAE1B9BB74900328168 /* SuperpoweredXCodeWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940C9AC31B9BB74900328168 /* Build configuration list for PBXNativeTarget "SuperpoweredXCodeWrapper" */;
+			buildPhases = (
+				940C9AAB1B9BB74900328168 /* Sources */,
+				940C9AAC1B9BB74900328168 /* Frameworks */,
+				940C9AAD1B9BB74900328168 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperpoweredXCodeWrapper;
+			productName = SuperpoweredXCodeWrapper;
+			productReference = 940C9AAF1B9BB74900328168 /* libSuperpoweredXCodeWrapper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		940C9AB91B9BB74900328168 /* SuperpoweredXCodeWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940C9AC61B9BB74900328168 /* Build configuration list for PBXNativeTarget "SuperpoweredXCodeWrapperTests" */;
+			buildPhases = (
+				940C9AB61B9BB74900328168 /* Sources */,
+				940C9AB71B9BB74900328168 /* Frameworks */,
+				940C9AB81B9BB74900328168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940C9ABD1B9BB74900328168 /* PBXTargetDependency */,
+			);
+			name = SuperpoweredXCodeWrapperTests;
+			productName = SuperpoweredXCodeWrapperTests;
+			productReference = 940C9ABA1B9BB74900328168 /* SuperpoweredXCodeWrapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		940C9AA71B9BB74900328168 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bryon Baker";
+				TargetAttributes = {
+					940C9AAE1B9BB74900328168 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					940C9AB91B9BB74900328168 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 940C9AAA1B9BB74900328168 /* Build configuration list for PBXProject "SuperpoweredXCodeWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 940C9AA61B9BB74900328168;
+			productRefGroup = 940C9AB01B9BB74900328168 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				940C9AAE1B9BB74900328168 /* SuperpoweredXCodeWrapper */,
+				940C9AB91B9BB74900328168 /* SuperpoweredXCodeWrapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940C9AB81B9BB74900328168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		940C9AAB1B9BB74900328168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B593C21BAADD230069E3FD /* SuperpoweredIOSAudioOutput.mm in Sources */,
+				9460EACB1B9BF3300075EF8E /* SuperpoweredWrapperUtilities.cpp in Sources */,
+				A6E275EE1F92F79C005C03F6 /* SuperpoweredFilterXCodeWrapper.cpp in Sources */,
+				A6E275F41F931FB2005C03F6 /* SuperpoweredRecorderXCodeWrapper.cpp in Sources */,
+				A6E275E81F926759005C03F6 /* SuperpoweredIOSAudioIO.mm in Sources */,
+				A6E275E71F926759005C03F6 /* SuperpoweredNBandEQ.cpp in Sources */,
+				0429379220B6826A00334A61 /* SuperpoweredAdvancedAudioPlayerXCodeWrapper.cpp in Sources */,
+				94B593C11BAADD230069E3FD /* SuperpoweredFrequencies.mm in Sources */,
+				9460EAC81B9BF06C0075EF8E /* SuperpoweredSimpleXCodeWrapper.cpp in Sources */,
+				940C9ACC1B9BB8EC00328168 /* SuperpoweredBandpassFilterbankXCodeWrapper.cpp in Sources */,
+				C3AE1EF020AB0F6A00379CAF /* Superpowered3BandEQXCodeWrapper.cpp in Sources */,
+				A6E275F81F94185E005C03F6 /* SuperpoweredDecoderXCodeWrapper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940C9AB61B9BB74900328168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		940C9ABD1B9BB74900328168 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940C9AAE1B9BB74900328168 /* SuperpoweredXCodeWrapper */;
+			targetProxy = 940C9ABC1B9BB74900328168 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		940C9AC11B9BB74900328168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		940C9AC21B9BB74900328168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		940C9AC41B9BB74900328168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Brijesh Tekrawala (JMVHF7JX2U)";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		940C9AC51B9BB74900328168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Brijesh Tekrawala (JMVHF7JX2U)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		940C9AC71B9BB74900328168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SuperpoweredXCodeWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryon.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		940C9AC81B9BB74900328168 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SuperpoweredXCodeWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bryon.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		940C9AAA1B9BB74900328168 /* Build configuration list for PBXProject "SuperpoweredXCodeWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940C9AC11B9BB74900328168 /* Debug */,
+				940C9AC21B9BB74900328168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940C9AC31B9BB74900328168 /* Build configuration list for PBXNativeTarget "SuperpoweredXCodeWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940C9AC41B9BB74900328168 /* Debug */,
+				940C9AC51B9BB74900328168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940C9AC61B9BB74900328168 /* Build configuration list for PBXNativeTarget "SuperpoweredXCodeWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940C9AC71B9BB74900328168 /* Debug */,
+				940C9AC81B9BB74900328168 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 940C9AA71B9BB74900328168 /* Project object */;
+}
